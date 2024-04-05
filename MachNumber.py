@@ -21,7 +21,7 @@ Speedms = float(
     input("Enter the speed of the aircraft in meters per second (m/s): "))
 MachNumber = CalculateMachNumber(Speedms)
 Clasificacion = Clasificationofmachnumber(MachNumber)
-mensaje = f""" 
+message = f""" 
 The Mach number is: {round(MachNumber,2)}
 The Clasification is: {Clasificacion} """
-print(mensaje)
+print(message)
